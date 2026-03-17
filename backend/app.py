@@ -11,7 +11,7 @@ class CustomHandler(http.server.SimpleHTTPRequestHandler):
             self.end_headers()
             self.wfile.write(b"Hello from Effective Mobile!")
         else:
-            # Для других путей можно вернуть 404
+            
             self.send_response(404)
             self.end_headers()
             self.wfile.write(b"Not Found")
