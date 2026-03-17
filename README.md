@@ -4,8 +4,7 @@ Effective Mobile DevOps Тестовое задание
 
 1.Клонировать репозиторий
 
-git clone <your-repo-url>
-cd <repo-name>
+git clone <https://github.com/dmike-bit/devops_test>
 docker-compose up -d
 curl http://localhost
 Должны увидеть: Hello from Effective Mobile!
